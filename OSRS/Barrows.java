@@ -78,7 +78,7 @@ public class Barrows {
 
                 if (Integer.parseInt(winner.get(j)[1]) == winners.get(i)) {
 
-                    if (place != 5) {
+                    if (place != 6) {
                         System.out.println("Place: " + place + ", " + winner.get(j)[0]);
 
                         place++;
