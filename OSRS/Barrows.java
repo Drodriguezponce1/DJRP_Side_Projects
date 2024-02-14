@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class Barrows {
     public static int counter = 0; // holds the counter for how many uniques a player has
