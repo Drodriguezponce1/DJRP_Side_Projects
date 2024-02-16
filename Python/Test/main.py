@@ -1,1 +1,6 @@
-print(7+9)
+
+def sum(x):
+    return x * 2;
+
+
+print(sum(3))
