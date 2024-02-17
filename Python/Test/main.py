@@ -4,3 +4,6 @@ def sum(x):
 
 
 print(sum(3))
+
+stry = "RANDOMSTRING"
+print(stry[3:-2:2])
