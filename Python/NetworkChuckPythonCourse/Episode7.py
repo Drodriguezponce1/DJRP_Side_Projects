@@ -6,4 +6,9 @@ camp_site = ["Crystal Lake", 404, 89.3, True]
 for i in range(len(camping_gear)):
     print(camping_gear[i])
 
-print(camping_gear[- 2])
+#print(camping_gear[- 2])
+print('\n')
+camping_gear.sort()
+
+for i in range(len(camping_gear)):
+    print(camping_gear[i])
