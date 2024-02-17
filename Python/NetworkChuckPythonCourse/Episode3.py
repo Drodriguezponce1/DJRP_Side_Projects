@@ -1,7 +1,7 @@
 #This vid involved Math!
 #https://www.youtube.com/watch?v=T6OLDHAWjjA
 x = input("Name: ")
-y = input("Manu: BLACK COFFEE, MATCHA, JAVA\nPlease enter which item you like: ")
+y = input("Menu: BLACK COFFEE, MATCHA, JAVA\nPlease enter which item you like: ")
 z = int(input("How many would you like? "))
 amount = 0
 if(y == "BLACK COFFEE"):
