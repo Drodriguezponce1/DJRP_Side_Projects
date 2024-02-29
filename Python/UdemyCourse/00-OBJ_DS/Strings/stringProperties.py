@@ -17,8 +17,15 @@ number = 1+2
 print("1 + 2 = " + str(number))
 
 #more examples
-    #capitalize the first letter
 x = "hello world"
-x = x.capitalize()
 
+    #capitalize the first letter
+x = x.capitalize()
 print(x)
+    #split
+y  = x.split()
+print(y)
+z = x.split("o")
+print(z)
+
+#printing
