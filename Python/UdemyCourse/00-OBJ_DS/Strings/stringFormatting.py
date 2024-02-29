@@ -14,3 +14,9 @@ name = "Daniel"
 age = 26
 height = 5.10
 print(f"His name is {name} and is {age} years old, and is {height:1.2f} height")
+
+#coding practice: write an expression using any string formatting method
+print("Python {a}".format(a="RULES!"))
+
+a = "Rules!"
+print(f"Python {a}")
