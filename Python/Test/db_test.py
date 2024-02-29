@@ -3,8 +3,8 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Goofy77871998$",
-  database= "example"
+  password="Goofy1998$",
+  database= "sakila"
 )
 
 mycursor = mydb.cursor()
@@ -19,7 +19,7 @@ for rows in x:
 
 print(li)
 
-def fun(lname :int, fnam :str):
+def fun(lname :str, fnam :str):
   return lname + fnam
 
-print(fun("f",2))
+print(fun("f","sdf"))
