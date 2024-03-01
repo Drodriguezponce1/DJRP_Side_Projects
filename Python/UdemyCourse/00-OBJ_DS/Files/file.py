@@ -35,3 +35,6 @@ with open(file="newMyFile.txt", mode="a") as f:
 
 with open(file= "newMyFile.txt", mode = "r") as f:
     print(f.readlines())
+
+with open(file="random.txt", mode ="a") as f:
+    f.write("Hello")
