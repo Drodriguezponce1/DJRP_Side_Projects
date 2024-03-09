@@ -1,5 +1,7 @@
 Java: holds any Java practices I program
+
 OSRS: holds any OSRS projects I have worked on
+
 Python:
   - API_Practice: holds test and learning of FastAPI
   - NetworkChuckPythonCourse: holds the guides of Network Chuck the Youtuber
