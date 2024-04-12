@@ -5,6 +5,7 @@ public class rtx{
     public static void main(String[] args) {
     
         String s = "10011011001;0110,1001,1001,0,10,11";
+        System.out.printf("%.4f\n", 123.2342342);
 
         String[] m = s.split(";");
         // ['10011011001','0110,1001,1001,0,10,11']
@@ -29,7 +30,8 @@ public class rtx{
         {
             m.put(placeholder, changes[i+1]);
             System.out.print(str + " changed too: ");
-            str = str.replaceFirst(changes[i], ""+placeholder);
+            str = str.replaceFirst(changes[i], "" + placeholder);
+            str = str.replaceFirst(changes[i], "" + placeholder);
             System.out.println(str + " using " + changes[i] + " ====> " + changes[i+1] + " AKA: "+ placeholder);
 
             placeholder++;
