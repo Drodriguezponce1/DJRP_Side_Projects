@@ -159,6 +159,7 @@ while True:
             else:
                 if full_board_check(board):
                     print("Game ended in a draw!")
+                    break
                 else:
                     turn = 'O'
         elif turn == 'O':
@@ -180,6 +181,7 @@ while True:
             else:
                 if full_board_check(board):
                     print("Game ended in a draw!")
+                    break
                 else:
                     turn = 'X'
     if not replay():
