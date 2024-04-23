@@ -1,5 +1,5 @@
 import unittest
-import cap
+import cap # type: ignore
 
 class TestCap(unittest.TestCase):
 
