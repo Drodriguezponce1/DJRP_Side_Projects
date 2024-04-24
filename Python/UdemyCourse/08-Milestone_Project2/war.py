@@ -39,11 +39,11 @@ class Deck():
     
     def deal_one(self):
         return self.all_cards.pop()
-    
+
 new_deck = Deck()
 
 new_deck.shuffle()
-for i,cards in enumerate(new_deck.all_cards):
+'''for i,cards in enumerate(new_deck.all_cards):
     print(f"Card {i}: {cards}")
 
 card = new_deck.deal_one()
@@ -51,4 +51,35 @@ card = new_deck.deal_one()
 for i,cards in enumerate(new_deck.all_cards):
     print(f"Card {i}: {cards}")
 
-print(card)
+print(card)'''
+
+class Player():
+
+    def __init__(self,name):
+        self.name = name
+        self.cards = []
+    
+    def remove_one(self):
+        return self.cards.pop(0)
+
+    def add_cards(self,cards):
+        if type(cards) == type([]):
+            self.cards.extend(cards)
+        else:
+            self.cards.append(cards)
+    
+    def __str__(self):
+        return f"Player {self.name} has {len(self.cards)} cards!"
+
+'''
+player = Player("Daniel")
+print(player)
+
+player.add_cards(new_deck.all_cards[0])
+print(player)
+
+player.add_cards([new_deck.all_cards[0],new_deck.all_cards[0],new_deck.all_cards[0]])
+print(player)
+
+player.remove_one()
+print(player)'''
