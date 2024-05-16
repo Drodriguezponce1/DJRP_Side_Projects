@@ -14,7 +14,7 @@ public class Person{
        this.age = 0;
        this.name = "N/A";
        this.address = "N/A";
-
+        
        main_id++;
     }
 
