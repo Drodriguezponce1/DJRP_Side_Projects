@@ -6,6 +6,7 @@ import java.io.PrintWriter;
 import java.net.*;
 import java.util.*;
 
+@SuppressWarnings("unused")
 public class GreetServer {
 
     private ServerSocket serverSocket; // waits for requests to the host
