@@ -14,7 +14,7 @@ public class Client {
     public Client()
     {
         try{
-            socket = new Socket("localhost", 3030);
+            socket = new Socket("localhost", 3030); // localhost, 3030
             out = new DataOutputStream(socket.getOutputStream());
             in = new Scanner(System.in);
             
@@ -51,6 +51,7 @@ public class Client {
     }
 
     public static void main(String[] args) {
+        
         Client c = new Client();
     }
 }

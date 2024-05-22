@@ -55,6 +55,8 @@ public class Server {
         {
             line = in.readUTF();
             System.out.println(line);
+
+
         }
         
     }
