@@ -1,4 +1,4 @@
-package Java.Sloth_Bytes;
+package Sloth_Bytes.VowelChecker;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
