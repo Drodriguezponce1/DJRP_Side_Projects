@@ -1,7 +1,7 @@
 package Java.RandomExamples;
 import java.util.HashMap;
 
-public class rtx{
+public class StringManip{
     public static void main(String[] args) {
     
         String s = "10011011001;0110,1001,1001,0,10,11";
