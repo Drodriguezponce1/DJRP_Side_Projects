@@ -1,7 +1,5 @@
 package Sloth_Bytes.VowelChecker;
 
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 
