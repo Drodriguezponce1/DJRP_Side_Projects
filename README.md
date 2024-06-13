@@ -8,6 +8,6 @@ Python:
   - Test: holds any testing python (for example, testing a database connection)
   - UdemyCourse: holds all the course work from a Udemy Python course
 
-Sloth Bytes: holds any programming challenges from the youtuber Sloth Bytes
+Sloth_Bytes: holds any programming challenges from the youtuber Sloth Bytes
 
-HTML Practice: holds any html practice giles
+HTML_Practice: holds any html practice giles
