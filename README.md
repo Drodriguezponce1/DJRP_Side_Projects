@@ -10,4 +10,4 @@ Python:
 
 Sloth_Bytes: holds any programming challenges from the youtuber Sloth Bytes
 
-HTML_Practice: holds any html practice giles
+docs: holds any html practice giles
