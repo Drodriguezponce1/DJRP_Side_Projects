@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * QuickFindUF
+ * QuickFindUF: this takes N^2 because of the union method
  */
 public class QuickFindUF {
 
