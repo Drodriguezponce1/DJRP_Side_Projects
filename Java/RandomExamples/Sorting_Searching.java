@@ -49,7 +49,7 @@ public class Sorting_Searching {
         while(left <= right)
         {
             //grab the middle between the left most and right most
-            int middle = left + (right - left) / 2;;
+            int middle = left + (right - left) / 2;
             if(n == a[middle])
             {
                 return middle;
