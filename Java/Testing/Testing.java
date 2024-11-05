@@ -16,12 +16,12 @@ public class Testing {
 
         while(s.hasNext())
         {
-            arr.add(s.nextLine().split(" "));
+            arr.add(s.nextLine().split(","));
         }
 
         for(String[] sr: arr)
         {
-            System.out.println(sr[1]);
+            System.out.println(sr[Integer.parseInt(args[0])]);
         }
     }
     
