@@ -33,5 +33,23 @@ public class CalculationsTest {
         Assert.assertEquals(44, c.absolute(-44));
     }
 
+    @Test
+    public void comparision1()
+    {
+        Assert.assertEquals("8 is greater than 4.", c.comparing(8, 4));
+    }
+
+    @Test
+    public void comparision2()
+    {
+        Assert.assertEquals("-3 is smaller than 5.", c.comparing(-3, 5));
+    }
+
+    @Test
+    public void comparision3()
+    {
+        Assert.assertEquals("1 is equal to 1." , c.comparing(1, 1));
+    }
+
 
 }

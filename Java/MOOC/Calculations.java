@@ -47,5 +47,19 @@ public class Calculations {
         return x * -1;
     }
 
+    public String comparing(int x, int y)
+    {
+        if( x == y)
+        {
+            return x + " is equal to " + y + ".";
+        }
+        else if( x > y)
+        {
+            return x + " is greater than " + y + ".";
+        }
+
+        return x + " is smaller than " + y + ".";
+    }
+
 
 }
