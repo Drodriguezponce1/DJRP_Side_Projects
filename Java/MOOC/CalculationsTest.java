@@ -21,5 +21,17 @@ public class CalculationsTest {
         Assert.assertEquals(3, c.square_root_sum(5, 4));
     }
 
+    @Test
+    public void absolute_test1()
+    {
+        Assert.assertEquals(4, c.absolute(4));
+    }
+
+    @Test
+    public void absolute_test2()
+    {
+        Assert.assertEquals(44, c.absolute(-44));
+    }
+
 
 }
