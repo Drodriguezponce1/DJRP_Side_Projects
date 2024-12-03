@@ -23,6 +23,8 @@ public class Testing {
         {
             System.out.println(sr[Integer.parseInt(args[0])]);
         }
+        
+        s.close();
     }
     
 
