@@ -1,8 +1,15 @@
 package Java.MOOC;
 
 import org.junit.*;
+
 public class CalculationsTest {
-    public Calculations c = new Calculations();
+    private static Calculations c;
+
+    @Before
+    public void setup()
+    {
+        c = new Calculations();
+    }
     @Test
     public void squared_test()
     {
