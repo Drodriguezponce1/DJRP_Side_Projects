@@ -16,7 +16,7 @@ public class Testing {
 
         while(s.hasNext())
         {
-            arr.add(s.nextLine().split(","));
+            arr.add(s.nextLine().split(":"));
         }
 
         for(String[] sr: arr)
@@ -26,9 +26,5 @@ public class Testing {
         
         s.close();
     }
-    
-
-
-
     
 }
