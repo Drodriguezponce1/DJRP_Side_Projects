@@ -22,7 +22,7 @@ public class CountingSort{
 
         // we have to update each index at n + m; this just means that we need to update the placeholder for 5 for example
         for(int n: this.a){
-            count[n + min]++;
+            count[n - min]++;
         }
 
         for(int i = 0; i < count.length; i++){

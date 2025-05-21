@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class MergeSort{
     public static void main(String[] args) {
-        int[] arr = new int[]{6,5,4,3,2,1};
+        int[] arr = new int[] {10,324,52,13,5,-1,0,99, 1, 1, 1, 1, 10,324,52,13,5,-1,0,99, 1, 1, 1, 1, 10,324,52,13,5,-1,0,99, 1, 1, 1, 1, 10,324,52,13,5,-1,0,99, 1, 1, 1, 1, 10,324,52,13,5,-1,0,99, 1, 1, 1, 1, 10,324,52,13,5,-1,0,99, 1, 1, 1, 1, 10,324,52,13,5,-1,0,99, 1, 1, 1, 1, 10};
         mergeSort(arr);
         System.out.println(Arrays.toString(arr));
     }
@@ -10,18 +10,8 @@ public class MergeSort{
         if(arr.length > 1){
             int half = arr.length / 2;
 
-            int[] one = new int[half];
-            int[] two = new int[arr.length - half];
-
-            for(int i = 0; i < arr.length; i++){
-                if(i < one.length){
-                    one[i] = arr[i];
-                }else{
-                    two[i - one.length] = arr[i];
-                }
-
-                
-            }
+            int[] one = Arrays.copyOfRange(arr, 0, half);
+            int[] two = Arrays.copyOfRange(arr, half, arr.length);
 
             mergeSort(one);
             mergeSort(two);
